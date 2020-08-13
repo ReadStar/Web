@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><a href="form-1.html">form-2</a></h1>
+<h2>폼을 그룹화 시키기 - fieldset</h2>
+<form action="test,jsp" method="post">
+<fieldset>
+	<legend>log-in</legend>
+	<label>id <input type="text" maxlength="12"></label><br>
+	<label>pass <input type="text" maxlength="12"></label><br>
+	<button>log in <img alt="alt" src="img.gif"></button>
+</fieldset>
+</form>
+</body>
+</html>

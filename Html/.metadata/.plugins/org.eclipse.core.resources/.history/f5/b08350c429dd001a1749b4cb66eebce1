@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><a href="form-1.html">form-2</a></h1>
+<h2>폼을 그룹화 시키기 - fieldset</h2>
+<fieldset>
+	<legend>
+	
+	</legend>
+</fieldset>
+</body>
+</html>

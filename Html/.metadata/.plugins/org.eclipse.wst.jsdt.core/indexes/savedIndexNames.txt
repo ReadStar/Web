@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/Users/enril/Desktop/Java/Web/Html/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1514202048.index
+365306004.index
+3587417596.index
+2732249872.index
+2870974047.index
+1679137986.index
+2990426836.index
+2732249872.index

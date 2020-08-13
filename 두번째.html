@@ -1,0 +1,237 @@
+<html>
+ <head>
+  <title> html 두번째</title>
+ </head>
+ <body>
+<hr>
+ <h1>html 수업 복습</h1>
+
+
+<p>
+줄바꿈 br	<br>
+문단 p	<br>
+수평선 hr	<br>
+제목글자 h1~6	<br>
+
+<b>볼드체 b strong</b>	<br>
+<i>이텔릭체 i em</i>	<br>
+<mark>형관펜 mark</mark>	<br>
+
+시작괄호 lt	<br>
+닫는괄호 gt	<br>
+하나의 공백 nbsp	<br>
+
+</p>
+<hr>
+ <h1>목록 만들기</h1>
+<hr>
+<h2>목록의 종류</h2>
+<h1>주석태그</h1> 
+&lt;!-- 주석 --&gt;!
+&lt;!-- 브라우저에 나타나지 않음. 설명문 등을 표기 --&gt;!
+<hr>
+<h1>pre 태그</h1>
+&lt;pre&gt ... &lt/pre&gt;
+공백을 살려주는 태그
+ 줄바꿈 적용됨
+ 스페이스바 2개 이상 적용됨
+<hr>
+<pre>
+<mark>순서 있는 목록 - <b>ol</b></mark><br>
+ 항목은 <b>li</b>로 묶어준다.<br>
+<mark>순서 없는 목록 - <b>ul</b></mark><br>
+ 항목은 <b>li</b>로 묶어준다.<br>
+<mark>정의 목록 - <b>dl</b></mark><br>
+ 정의 대상은 <b>dt</b>로,<br>
+ 정의 내용은 <b>dd</b>로 묶어준다.
+</pre>
+
+<hr>
+<h3>순서가 있는 목록 - ol (ordered List)</h3>
+
+<ol>
+<li>web</li>
+<li>Db</li>
+<li>Java</li>
+<li>JSP</li>
+</ol>
+
+<ol>
+<li>tag</li>
+<li>속성</li>
+<li>속성값</li>
+</ol>
+
+<h5> *** </h5>
+<ol start="11">
+<li>α</li>
+<li>β</li>
+<li>γ</li>
+<li>δ</li>
+<li>ε</li>
+</ol>
+ </body>
+
+<hr>
+<h3>순서가 없는 목록 - ul (Unorderd List)</h3>
+<ul>
+<li>web</li>
+<li>Java</li>
+<li>JSP</li>
+<li>DB</li>
+</ul>
+<ul>
+<li>tag</li>
+<li>속성</li>
+<li>속성값</li>
+</ul>
+
+<hr>
+<h3>목록 앞의 모양 바꾸기 - type""</h3>
+<h4>순서 있는 목록 - ol의 모양 바꾸기 (<mark>1</mark> / a / A / i / I)</h4>
+<ol type="1">
+<li>red</li>
+<li>orange</li>
+<li>yellow</li>
+<li>green</li>
+<li>blue</li>
+<li>navy</li>
+<li>pupple</li>
+</ol>
+
+<ol type="a">
+<li>red</li>
+<li>orange</li>
+<li>yellow</li>
+<li>green</li>
+<li>blue</li>
+<li>navy</li>
+<li>pupple</li>
+</ol>
+
+<ol type="A">
+<li>red</li>
+<li>orange</li>
+<li>yellow</li>
+<li>green</li>
+<li>blue</li>
+<li>navy</li>
+<li>pupple</li>
+</ol>
+
+<ol type="i">
+<li>red</li>
+<li>orange</li>
+<li>yellow</li>
+<li>green</li>
+<li>blue</li>
+<li>navy</li>
+<li>pupple</li>
+</ol>
+
+<ol type="I">
+<li>red</li>
+<li>orange</li>
+<li>yellow</li>
+<li>green</li>
+<li>blue</li>
+<li>navy</li>
+<li>pupple</li>
+</ol>
+<hr>
+<h4>순서 있는 목록 - ul의 모양 바꾸기 (<mark>disc</mark> / circle / square)</h4>
+<ul type="disc">
+<li>html</li>
+<li>CSS</li>
+<li>javascript</li>
+</ul>
+
+<ul type="circle">
+<li>html</li>
+<li>CSS</li>
+<li>javascript</li>
+</ul>
+
+<ul type="square">
+<li>html</li>
+<li>CSS</li>
+<li>javascript</li>
+</ul>
+
+<hr>
+<h3>정의 목록 - dl (description List)</h3>
+<dl>
+<dt>html</dt>
+<dd>Hyper Text Markup Language의 약자</dd>
+</dl>
+
+<dl>
+<dt>CSS?</dt>
+<dd>Cascading Style Sheets의 약자</dd>
+</dl>
+
+<dl>
+<dt>coffee</dt>
+<dd>black and hot drink</dd>
+<dt>milk</dt>
+<dd>white and cold drink</dd>
+</dl>
+
+<dl>
+<dt>html?</dt>
+<dd>Hyper Text Markup Language의 약자</dd>
+<dd>웹페이지의 구조를 담당</dd>
+<dd>명령어인 tag와 속성, 속성값으로 구성됨</dd>
+</dl>
+
+<h5>목록 만들기</h5>
+<dl>
+<dt>이름</dt>
+<dd>뭐함</dd>
+<dd>뭐뭐함</dd>
+<dd>뭐뭐뭐함</dd>
+<dd>뭐많이함</dd>
+</dl>
+
+<h3>목록 안에 목록 넣기(하위목록)</h3>
+
+<ol>
+<li>html</li>
+ <ol>
+  <li>tag</li>
+  <li>속성</li>
+  <li>속성값</li>
+ </ol>
+<li>CSS</li>
+ <ol>
+  <li>선택자</li>
+  <li>속성</li>
+  <li>속성값</li>
+ </ol>
+<li>Javascript</li>
+ <ol>
+  <li>???</li>
+  <li>속성</li>
+  <li>속성값</li>
+ </ol>
+</ol>
+<hr>
+
+<ul type = disc>
+  <li>추천도서
+ <ol>
+  <li>성경</li>
+  <li>불경</li>
+  <li>책</li>
+ </ol>
+</li>
+ <li>추천음악</li>
+  <ol>
+  <li>sunburst</li>
+  <li>fade</li>
+  <li>hope</li>
+  </ol>
+</ul>
+<h1><hr></h1>
+
+</html>

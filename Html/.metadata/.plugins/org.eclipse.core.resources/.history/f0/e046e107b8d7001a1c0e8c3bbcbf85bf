@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>form-1</h1>
+<p>form은 사용자와 서버를 연결해주는 웹페이지를 만들어 준다.<br>
+	사용자가 정보를 입력해서 서버에 전달 할 수 있도록<br>
+	페이지를 편리하게 만들어주는 여러 태그들과 속성값들을 지정한다.
+</p>
+<form action="test.jsp" method="get">
+<h1>label ... /label 의 설명문을 뜻함</h1>
+<p>label태그에는 속성 for의 값을,<br>
+  input태그에는 속성 id의 값을 서로 일치시켜주면 연결됨</p>
+<h2>input type="text" 한 줄 글상자</h2>
+<ul>
+<li>size="n" 글상자의 가로 길이</li>
+<li>maxlength="n" 입력 데이터의 길이 (글 상자의 크기와 무관하게) </li>
+</ul>
+	<label for="name">name</label> <input type="text" id="name"><br>
+	<label for="f-name">firstName</label> <input type="text" id="f-name"><br>
+	<label for="l-name">lastName</label> <input type="text" id="l-name"><br>
+	<label for="id">Id</label> <input type="text" id="Id" maxlength="6" size="10">
+	<label for="pwd">password</label> <input type="password" id="pwd" maxlength="12"><br>
+<h2>input type-"password" 암호 글상자</h2>
+	<label for="pass">주민등록번호 뒷자리</label> <input type="password" id="pass" maxlength="7"><br>
+<hr>
+<h2>textarea.../textarea 큰 글상자</h2>
+<p>cols="n"와 rows="n"속성으로 가로 크기, 세로 크기를 지정할 수 있다.</p>
+<label>입사 지원동기<br>
+<textarea rows="7" cols="70">지원동기</textarea><br>
+</label>
+
+
+<label for="txt02">자기소개</label><br>
+<textarea rows="10" cols="50">자기소개</textarea>
+
+<h2>input type="radio" 버튼</h2>
+<p>아이티윌부산에 회원가입을 하셨나요?</p>
+<label><input type="radio" name="itw-m">네</label><br>
+<label><input type="radio" name="itw-m">아니오</label>
+
+<hr>
+<h2>input type 버튼들</h2>
+<p> value 속성으로 버튼에 보이는 글자를 지정할 수 있다.</p>
+<ol>
+<li>input type="submit" 전송 기능 버튼(설정한 곳으로 데이터를 보냄)</li>
+<li>input type="reset" 취소 기능 버튼 (모든 데이터 초기화)</li>
+<li>input type="button" 일반 버튼</li>
+</ol>
+
+<input type="submit" value="전송">
+<input type="reset" value="취소">
+
+<input type="button" value="버튼" onclick="alert('아무것도아님')"><br>
+
+<hr>
+<h2>button.../button 버튼들</h2>
+<p>시작과 종료태그의 한 쌍으로 이뤄지며 사이에 글자를 적으면<br>
+버튼 위의 글자로 나타나며 기본으로 전송 기능을 하는 버튼이 된다.<br>
+취소 기능 버튼은 속성 type의 값을  reset으로,<br>
+일반 버튼은 속성 true의 값을 button으로 주면 된다.</p>
+<button>ok</button>
+<button type="reset">no</button>
+
+<button type="button" onmouseover="alert('조심')">button</button>
+<button type="button"><b>bold</b>btn</button>
+
+<hr>
+<h2>input type="image"전송버튼의 역할을 하는 이미지</h2>
+<p>src 속성으로 이미지의 경로를 지정할 수 있다.</p>
+
+<input type="image" src="img.gif" width="30" height="30">
+</form>
+
+</body>
