@@ -62,7 +62,8 @@
 </optgroup>
 </select>
 </fieldset><br>
-	<button><img alt="alt" src="img.gif" width="15">가입</button>
-	<button><img alt="alt" src="img.gif" width="15 ">취소</button>
+
+<input type="submit" value="가입"> <input type="reset" value = "취소">
+
 </body>
 </html>

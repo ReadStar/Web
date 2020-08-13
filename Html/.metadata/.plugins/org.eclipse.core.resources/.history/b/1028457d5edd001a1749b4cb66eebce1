@@ -61,8 +61,8 @@
 <option>무용</option>
 </optgroup>
 </select>
-</fieldset><br>
-	<button><img alt="alt" src="img.gif" width="15">가입</button>
-	<button><img alt="alt" src="img.gif" width="15 ">취소</button>
+</fieldset>
+<input type="submit" value="OK"> <input type="reset" value = "No">
+
 </body>
 </html>
