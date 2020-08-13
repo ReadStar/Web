@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>ITWILL 회원가입</h1>
+<ul>
+<li><input type ="text" disabled="disabled" value = "자바(JAVA)개발자 양성">과정</li></ul>
+<fieldset>
+<legend><b>필수 입력</b></legend>
+<b>♣</b> &nbsp;이름 <input type="text"><br><br>
+<b>♣</b> &nbsp;아이디 <input type="text" placeholder="6~10자 영문과 숫자 조합"><br><br>
+<b>♣</b> &nbsp;비밀번호 <input type="text" placeholder="8~12자 영문, 숫자, 특수문자 조합"><br><br>
+<pre></pre>
+<b>♣</b>&nbsp; 성별<br>
+<input type="radio" name = "gender">남<br>
+<input type="radio" name = "gender" checked="checked">여<br>
+<input type="radio" name = "gender">기타<br>
+<pre></pre>
+<b>♣</b>&nbsp;생년월일&nbsp;<input type="date" value="2000-12-20" ><br>
+<b>♣</b>&nbsp;전화번호<input type="tel" placeholder="(예시)010-777-8888"><br>
+<b>♣</b>&nbsp;email&nbsp;<input type="email"><br>
+<hr></hr>
+<b>♣</b>&nbsp;아이티윌부산이 제공하는 정보를 받으시겠습니까<br>
+<input type="checkbox" name="box">받습니다<br>
+<input type="checkbox" name="box">받지 않겠습니다<br>
+<b>♣</b>&nbsp;정보나 이벤트 소식을 어떻게 받으시겠습니까?<br>
+<input type="checkbox" name="box2" checked="checked">이메일
+<input type="checkbox" name="box2">문자
+<input type="checkbox" name="box2" checked="checked">카카오톡
+<input type="checkbox" name="box2">우편
+</fieldset>
+
+<fieldset>
+<legend>선택 입력</legend>
+<b>♣</b>&nbsp;자기소개를 해주세요<br>
+<textarea cols="60" rows="10"></textarea>
+<b>♣</b>&nbsp;블로그 주소
+
+</fieldset>
+</body>
+</html>

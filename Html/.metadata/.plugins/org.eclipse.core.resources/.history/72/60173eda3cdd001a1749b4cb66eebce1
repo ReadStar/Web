@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1><a href="form-1.html">form-2</a></h1>
+<h2>폼을 그룹화 시키기 - fieldset</h2>
+<p>
+폼요소들을 주제(필요)에 따라 한 그룹으로 묶을 수 있다.
+<mark>fieldset</mark>태그로 요소들을 묶어주고,
+해당 fieldset그룹의 제목은 <mark>legend</mark>태그로 붙여준다.
+</p>
+<form action="test,jsp" method="post">
+<fieldset>
+	<legend>log-in</legend>
+	<label>id <input type="text" maxlength="12"></label><br>
+	<label>pass <input type="text" maxlength="12"></label><br>
+	<button>log in <img alt="alt" src="img.gif" width="20"></button>
+</fieldset>
+</form>
+<br>
+<form>
+<fieldset>
+<legend>개인정보입력</legend>
+<label>name <input type="text"></label><br>
+<label><input type="radio" name="gender" checked="checked">male</label>
+<label><input type="radio" name="gender">female</label>
+<label><input type="radio" name="gender">other</label><br>
+<label>tel<input type="tel"></label>
+</fieldset>
+
+
+<h2>html5에서 추가된 요소들</h2>
+<fieldset>
+<legend>htm5 input type=l</legend>
+<ul>
+<li><input type="time"> "time 사용자의 지역을 기준으로 시간(시분)" </li>
+<li><input type="date"> "date 사용자의 지역을 기준으로 날짜(연월일)" </li>
+<li><input type="datetime-local"> "datetime-local 사용자의 지역을 기준으로 연월일시분" </li>
+<li><input type="week"> "week 사용자의 지역을 기준으로 날짜(연주)" </li>
+<li><input type="month"> "month 사용자의 지역을 기준으로 날짜(연월)" </li>
+<li><input type="tel"> "tel 전화번호 입력용도(가상키패드의 변화, 통화기능)" </li>
+<li><input type="email"> "email 이메일주소를 입력하는 용도<br>
+											(가상키패드의 변화, email형식이 맞는지 브라우저에서 확인)" </li>
+<li><input type="url"> "url 사이트 주소를 입력하는 용도(가상키패드의 변화, url형식이 맞는지 브라우저에서 확인)" </li>
+<li><input type="number"> "number 숫자 형식을 입력하는 용도(증감버튼 생성)" 
+		<ol>
+		<li><input type="number" min="0"> min = "n"으로 최소값 지정 가능</li>
+		<li><input type="number" max="100">max="n"으로 최대값 지정 가능</li>
+		<li><input type="number" step="5">step="n"으로 증감간격 지정 가능</li>
+		</ol>
+</li>
+<li><input type="range"> "range 범위내의 값을 지정하는 용도" </li>
+<li><input type="color"> "color 색상값을 지정하는 용도" </li>
+<li><input type="search"> "search 검색 역할의 입력요소(삭제버튼생성)" </li>
+</ul>
+<ul>
+<li><input type="hidden"> - hidden 사용자에게 보이지 않는 정보를 함께 전송(value속성의 값으로 지정)</li>
+<li><input type="file"> - file 파일 전송용</li>
+</ul>
+<h3>html5에서 추가된 속성들</h3>
+<ul>
+<li><input type="text" placeholder="입력예시"></li>
+<li><input type="text" autofocus="autofocus">자동으로 포커싱 된 요소로 지정</li>
+<li><input type="text" required="required"> 필수입력요소로 지정</li>
+<li><input type="text" autocomplete="off"> 자동완성 기능을 켜거나 끔(기본값은 On) on/off </li>
+<li><input type="text" readonly="readonly"  value="2020-12-31"> 읽기만 가능한 요소로 지정</li>
+<li><input type="text" disabled="disabled" value="2020-12-31"></li>
+</ul>
+
+
+
+<input type="submit" value="OK"> <input type="reset" value = "No">
+</fieldset>
+
+</form>
+</body>
+</html>
