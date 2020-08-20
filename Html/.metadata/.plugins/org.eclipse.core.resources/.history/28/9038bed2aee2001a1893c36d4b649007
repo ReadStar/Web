@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>img로 이미지 넣기</title>
+</head>
+<body>
+<h1>img로 이미지 넣</h1>
+<p>
+ src="이미지경로" (상대경로 / 절대경로)<br>
+ alt="이미지 설명문" (음성낭독기용, 이미지가 나타나지 않을 때의 설명문)
+ </p>
+ <img alt="infographic" src="img/infographic.png">
+ <ol>
+ <li>*.gif 최대 256가지 색상만 표현가능.(단순한 이미지에 적합), 배경투명가능, 움짤가능</li>
+ <li>*.jpg 트루컬러 표현가능.(실사 느낌의 이미지, 사진에 적합)</li>
+ <li>*.png트루컬러 표현가능. 배경투명 가능></li>
+ </ol>
+ <p style="background-color : pink;">
+ <img alt="mosnter" src="img/arrow-up.png">
+ </p>
+<h2>이미지 크기 지정</h2>
+<img alt="australian" src="img/australian-pelican.jpg">
+<img alt="australian" src="img/australian-pelican.jpg" width="200">
+<img alt="australian" src="img/australian-pelican.jpg" height="200">
+<img alt="australian" src="img/australian-pelican.jpg" width="200" height="200">
+<img alt="bare" src="img/bare.jpg" width="480" height="240">
+<img alt="colorpicker" src="https://w3schools.com/images/colorpicker.png"> <!-- 절대경로로 이미지 불러오기 -->
+</body>
+</html>

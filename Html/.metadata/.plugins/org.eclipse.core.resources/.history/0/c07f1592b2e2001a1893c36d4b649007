@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a로 링크 걸기</title>
+</head>
+<body>
+<h1><img alt = "움짤" src="img/aniyellow.gif">a태그로 링크 걸기</h1>
+<a href="https://www.w3schools.com">https://www.w3schools.com</a>
+<a href="pixabay.com>pixabay.com</a>
+</body>
+</html>
