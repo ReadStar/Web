@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="A.html">링크1</a>
+<a href="a-1.html">링크2</a>
+<a href="a-2.html">링크3</a>
+
+</body>
+</html>

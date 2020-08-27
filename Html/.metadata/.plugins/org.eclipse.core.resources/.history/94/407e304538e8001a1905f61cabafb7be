@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<nav>
+<a href="A.html" title = "링크 기본">링크1</a>
+<a href="a-1.html" title = "내부 링크">링크2</a>
+<a href="a-2.html" title ="이미지맵">링크3</a>
+</nav>
+
+<hr>
+<h1>Image Map(이미지맵)</h1>
+<p>이미지 하나에 특정 구역을 설정하여<br>
+구역마다 다른 곳으로 링크를 걸 수 있다</p>
+
+<img alt="bare" src="img/bare.jpg" usemap="#imgmap01">
+<map name="imgmap01">
+<area shape="rect" coords="0,0,100,150" href="A.html" alt="링크1" title="링크1(A.html)">
+<area shape="circle" coords="130,200,30" href="a-1.html" alt="링크2" title="링크2">
+<area shape="poly" coords="200,200,280,280,100,280" href="a-2.html" alt="링크3" title="링크3">
+
+<img alt="bare2" src="img/bare.jpg" usemap="#imgmap02">
+<map name="imgmap02">
+<area shape="rect" coords="0,0,100,150" href="A.html" alt="링크1" title="링크1(A.html)">
+<area shape="circle" coords="130,200,30" href="a-1.html" alt="링크2" title="링크2">
+<area shape="poly" coords="200,200,280,280,100,280" href="a-2.html" alt="링크3" title="링크3">
+</map>
+</map>
+</body>
+</html>
