@@ -19,5 +19,27 @@ width/heigth 속성으로 가로 세로 크기 조절
 <iframe src="img/bastei.jpg" width ="80%" height="400"></iframe>
 <h3>src="*.mp4"</h3>
 <iframe src="img/trees.mp4" width ="80%" height="400"></iframe>
+<h2>iframe안에 링크 열어주기</h2>
+<p>
+ifram은 name 속성을, a태그는 target 속성의 값을 서로 일치시킨다
+</p>
+<iframe src="A.html" name="ifbox01" width="900" height="600"></iframe>
+<h4>html 수업 보기</h4>
+<nav>
+<a href="A.html" target ="ifbox01">링크1</a>
+<a href="a-1.html" target ="ifbox01">링크2</a>
+<a href="a-2.html" target ="ifbox01">링크3</a>
+<a href="form-1.html" target ="ifbox01">폼1</a>
+<a href="form-2.html" target ="ifbox01">폼2</a>
+<a href="img.html" target ="ifbox01">이미지</a>
+</nav>
+
+
+<iframe src="img/abend.jpg" name="ifbox02" width="700" height="600"></iframe>
+<nav>
+<a href="img/abend.jpg" target ="ifbox02">링크1</a>
+<a href="img/art.jpg" target ="ifbox02">링크2</a>
+<a href="img/away.jpg" target ="ifbox02">링크3</a>
+</nav>
 </body>
 </html>
