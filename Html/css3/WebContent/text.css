@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+pre{font-size: 1.2em;
+font-family: sans-serif;}
+
+pre>span {font-weight: bold;}
+pre>a {text-decoration: none;}
+
+pre>a:hover {/*상태선택자-마우스오버시*/
+text-decoration: underline;
+background-color: #000;
+color: #fff;}
+
+#sec01>p{
+	background-color: #aef;
+	width: 50%;
+}
+
+.tal01 {text-align: left;}
+.tal02 {text-align: center;}
+.tal03 {text-align: right;}
+.tal04 {text-align: justify;}
+
+.tal01:hover {text-align: center;}
+td.tal03:hover{font-size: 20px;}
+
+/*.sec01>p 관계선택자-부모자식*/
+.tal01, .tal02, .tal03, .tal04{
+	background-color: #aef;
+	width: 500px;
+}
+
+#tal-al{border: 1px solidl; width: 600px; height: 200px;}
+
+#tab-al th {/*1, 관계선택자-자손*/border: 1px solid red;}
+#tab-al td {border: 1px solid blue;}
+
+
+
+/*text-decoration : ;글자의 여러 줄들*/
+.tdec01 {text-decoration: overline;}
+.tdec02 {text-decoration: line-through;}
+.tdec03 {text-decoration: underline;}
+.tdec04 {text-decoration: none;}
