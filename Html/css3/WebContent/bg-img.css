@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("img/away.jpg");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+pre{background-color: rgba(255,255,255,0.7);
+	font-family: "verdana", sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#sec01>p {border: 1px solid;
+	width: 45%; height: 400px;
+	margin-right: 2%;
+	padding:1.2%;
+	display: inline-block;
+	background-image:url("img/arrow.gif");
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#sec01>p:first-line{
+	background-color: #fff;
+}
+
+.bg-re01{background-repeat: repeat;}
+.bg-re02{background-repeat: repeat-x;}
+.bg-re03{background-repeat: repeat-y;}
+.bg-re04{background-repeat: no-repeat;}
+
+#sec02>p{border: 1px solid;
+width: 45%; height: 400px;
+margin-right: 2%;
+padding: 1.2%;
+}
