@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>transform</title>
+<link href="style.css" rel="stylesheet">
+<link href="transform.css" rel="stylesheet">
+</head>
+<body>
+<h1>transform 변형</h1>
+
+<h2>transform: ; 변형함수의 종류</h2>
+<ol>
+ <li>translate() 위치 변형<br>
+  - % 단위를 적용시 그 기준은 자신의 크기가 됨.<br>
+  - 값을 마이너스로 주면 위나 좌측으로 이동.
+ </li>
+ <li>scale() 크기 변형<br>
+  - 영역의 크기를 포함하여 모든 컨텐츠에 변형이 적용됨.<br>
+  - 값 1을 기준으로 1보다 작으면 축소, 크면 확대</li>
+ <li>rotate() 회전 변형<br>
+  - 단위는 deg를 쓰며 값을 마이너스로 주면 회전방향이 반시계로.
+ </li>
+ <li>skew() 기울기 변형</li>
+</ol>
+
+<section id="sec01">
+ <h2>transform:translate(); 위치 변형</h2>
+ 
+ <div class="tr01">transform:translateX(800px);</div>
+ <div class="tr02">transform:translateY(200px);</div>
+ <div class="tr03">transform:translateX(-250px);</div>
+ <div class="tr04">transform:translateY(-300px);</div>
+ <div class="tr05">transform:translate(900px,-350px);</div>
+ <div class="tr06">transform:translate(600px,250px);</div> 
+ <div class="tr07">transform:translate(100%,100%);</div> 
+ <div class="tr08">transform:translate();</div> 
+ <div class="center">
+         <b>[항상 center에 위치하기]</b>
+          1. 상위요소의 설정은 
+  position: relative;로,
+                        중앙정렬의 대상은 
+  <b>position: absolute;
+  top:50%; left: 50%;로 설정
+          2. 추가로
+  transform:translate(-50%,-50%);</b>하여
+   자신의 크기 절반만큼 위로,앞으로 이동
+          3. 항상 중앙정렬 끝   
+  </div> 
+</section>
+
+<section id="sec02">
+ <h2>scale() 크기 변형</h2>
+ 
+ <div class="sc01">scaleX(2); 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+ <div class="sc02">scaleY(2); 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+ <div class="sc03">scaleX(0.5); 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+ <div class="sc04">scaleY(0.5) 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+ <div class="sc05">scale(1.5,1.5); 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+ <div class="sc06">scale(0.7,0.7) 크기 변형<br>
+  <img alt="monster" src="img/monster.png">
+ </div>
+</section>
+
+<section id="sec03">
+ <h2>rotate() 회전 변형</h2>
+ 
+ <div class="ro01">rotateX(180deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro02">rotateY(180deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro03">rotateX(90deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro04">rotateY(-45deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro05">rotate(-60deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro06">rotate(1080deg) 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="ro07"><b>rotate(1080deg)</b> 회전 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+</section>
+
+<section id="sec04">
+ <h2>skew() 기울기 변형</h2>
+ 
+ <div class="sk01">skewX(30deg) 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+ <div class="sk02">skewX(-30deg) 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+  <div class="sk03">skewY(30deg) 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+  <div class="sk04">skewY(-30deg) 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+  <div class="sk05">skew(30deg,30deg) 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+  <div class="sk06">skew 기울기 변형<br>
+  <img alt="" src="img/mail02.jpg">
+ </div>
+</section>
+
+
+</body>
+</html>
+
+
+
+
+
+
+

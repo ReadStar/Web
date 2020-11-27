@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* transform:translate(); 
+               위치 변형 */
+               
+#sec01>div {
+border: 1px solid green;
+width: 200px; height: 50px;	}            
+               
+.tr01 {transform:translateX(800px);}               
+.tr02 {transform:translateY(200px);}               
+.tr03 {transform:translateX(-250px);}               
+.tr04 {transform:translateY(-300px);}         
+.tr05 {transform:translate(900px,-350px);}  
+.tr06 {transform:translate(600px,250px);}          
+.tr07 {transform:translate(100%,100%);}           
+
+#sec01:hover>div:not(.center) {
+transform:translate(0,0);	
+transition:2.7s;
+  추가 }
+
+
+ /* 항상 center에 위치하기 */
+#sec01 {position: relative;
+background-image: url("img/notebook.jpg"); 
+background-repeat: no-repeat;
+background-size: 1000px ;
+background-position: 0 -30px;
+}  
+             
+.center {background-color: #0d9;
+  width:300px !important;
+  height:auto !important;
+  white-space: pre;
+  
+  position: absolute;
+  top:50%; left: 50%;
+  transform:translate(-50%,-50%);}
+
+
+ /* scale() 크기 변형 */
+#sec02>div {border: 1px solid #078;
+width: 250px;
+display: inline-block;
+margin: 50px;}
+
+#sec02 img {border: 1px solid #780;
+width: 100%;
+box-sizing: border-box;
+/* 요소의 크기 계산시 width값과 height값에 
+padding와 border값을 포함하게 함 */}
+
+#sec02:hover>.sc01 {transform:scaleX(2);}
+#sec02:hover>.sc02 {transform:scaleY(2);}
+#sec02:hover>.sc03 {transform:scaleX(0.5);}
+#sec02:hover>.sc04 {transform:scaleY(0.5);}
+#sec02:hover>.sc05 {transform:scale(1.5,1.5);}
+#sec02:hover>.sc06 {transform:scale(0.7,0.7);}
+
+#sec02:hover>div {transition:2s;}
+
+
+/* rotate() 회전 변형 */
+#sec03>div, #sec04>div {border: 1px solid #840;
+width: 200px;
+display: inline-block;
+margin: 30px;}
+
+#sec03>div:nth-of-type(1) {
+ margin-left: 80px;	}
+
+#sec03 img, #sec04 img {
+width: 100%;	
+box-sizing: border-box;}
+
+#sec03:hover>.ro01 {
+ transform:rotateX(180deg);}
+#sec03:hover>.ro02 {
+ transform:rotateY(180deg);}
+#sec03:hover>.ro03 {
+ transform:rotateX(90deg);}
+#sec03:hover>.ro04 {
+ transform:rotateY(-45deg);}
+#sec03:hover>.ro05 {
+ transform:rotate(-60deg);}
+#sec03:hover>.ro06 {
+ transform:rotate(1080deg);}
+ 
+ .ro07 {overflow: hidden;}
+ 
+ .ro07>b { z-index: 999;} 
+ .ro07>img { z-index: -90;
+ display: block;}
+ 
+#sec03:hover>.ro07>b { 
+ display: inline-block;	
+ transform:rotateY(720deg);}
+ 
+#sec03:hover>.ro07>img {
+ transform:rotate(-1080deg);}
+
+
+#sec03:hover>div {transition:2s;}
+
+#sec03:hover>.ro07>b,
+#sec03:hover>.ro07>img {
+	transition:2s;}
+
+
+/* skew() 기울기 변형 */
+#sec04>div:first-of-type {
+	/* 해당 타입의 첫번째 요소를 불러옴 */
+	margin-left: 120px;}
+
+.sk01:hover {
+transform:skewX(30deg); }
+.sk02:hover {
+transform:skewX(-30deg); }
+.sk03:hover {
+transform:skewY(30deg); }
+.sk04:hover {
+transform:skewY(-30deg); }
+.sk05:hover {
+transform:skew(30deg,30deg); }
+
+
+
+
+
+
+
+
+
+
+
+
+
